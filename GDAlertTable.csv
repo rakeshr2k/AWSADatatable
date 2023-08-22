@@ -1,78 +1,78 @@
 Category, FindingType, Rank
-C&C," ""Backdoor:EC2/C&CActivity.B"""," ""1200"""
-C&C," ""Backdoor:EC2/C&CActivity.B!DNS"""," ""900"""
-Data Exfiltration," ""Trojan:EC2/DNSDataExfiltration"""," ""1500"""
-Credential Exfiltration," ""UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.OutsideAWS"""," ""960"""
-Credential Exfiltration," ""UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.InsideAWS"""," "" """
-DOS," ""Backdoor:EC2/DenialOfService.Dns"""," ""360"""
-DOS," ""Backdoor:EC2/DenialOfService.Tcp"""," ""360"""
-DOS," ""Backdoor:EC2/DenialOfService.Udp"""," ""360"""
-DOS," ""Backdoor:EC2/DenialOfService.UdpOnTcpPorts"""," ""360"""
-DOS," ""Backdoor:EC2/DenialOfService.UnusualProtocol"""," ""450"""
-Malware," ""Backdoor:EC2/Spambot"""," ""300"""
-Malware," ""CryptoCurrency:EC2/BitcoinTool.B"""," ""450"""
-Malware," ""CryptoCurrency:EC2/BitcoinTool.B!DNS"""," ""450"""
-Privilege Admin Activity," ""Exfiltration:S3/ObjectRead.Unusual"""," ""720"""
-Privilege Admin Activity," ""Policy:IAMUser/RootCredentialUsage"""," ""300"""
-Privilege Admin Activity," ""Policy:S3/AccountBlockPublicAccessDisabled"""," ""500"""
-Privilege Admin Activity," ""Policy:S3/BucketAnonymousAccessGranted"""," ""960"""
-Privilege Admin Activity," ""Policy:S3/BucketBlockPublicAccessDisabled"""," ""400"""
-Privilege Admin Activity," ""Policy:S3/BucketPublicAccessGranted"""," ""960"""
-Privilege Admin Activity," ""Stealth:IAMUser/CloudTrailLoggingDisabled"""," ""400"""
-Privilege Admin Activity," ""Stealth:IAMUser/PasswordPolicyChange"""," ""300"""
-Privilege Admin Activity," ""Stealth:S3/ServerAccessLoggingDisabled"""," ""300"""
+C&C, Backdoor:EC2/C&CActivity.B, 1200
+C&C, Backdoor:EC2/C&CActivity.B!DNS, 900
+Data Exfiltration, Trojan:EC2/DNSDataExfiltration, 1500
+Credential Exfiltration, UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.OutsideAWS, 960
+Credential Exfiltration, UnauthorizedAccess:IAMUser/InstanceCredentialExfiltration.InsideAWS,  
+DOS, Backdoor:EC2/DenialOfService.Dns, 360
+DOS, Backdoor:EC2/DenialOfService.Tcp, 360
+DOS, Backdoor:EC2/DenialOfService.Udp, 360
+DOS, Backdoor:EC2/DenialOfService.UdpOnTcpPorts, 360
+DOS, Backdoor:EC2/DenialOfService.UnusualProtocol, 450
+Malware, Backdoor:EC2/Spambot, 300
+Malware, CryptoCurrency:EC2/BitcoinTool.B, 450
+Malware, CryptoCurrency:EC2/BitcoinTool.B!DNS, 450
+Privilege Admin Activity, Exfiltration:S3/ObjectRead.Unusual, 720
+Privilege Admin Activity, Policy:IAMUser/RootCredentialUsage, 300
+Privilege Admin Activity, Policy:S3/AccountBlockPublicAccessDisabled, 500
+Privilege Admin Activity, Policy:S3/BucketAnonymousAccessGranted, 960
+Privilege Admin Activity, Policy:S3/BucketBlockPublicAccessDisabled, 400
+Privilege Admin Activity, Policy:S3/BucketPublicAccessGranted, 960
+Privilege Admin Activity, Stealth:IAMUser/CloudTrailLoggingDisabled, 400
+Privilege Admin Activity, Stealth:IAMUser/PasswordPolicyChange, 300
+Privilege Admin Activity, Stealth:S3/ServerAccessLoggingDisabled, 300
 Suspicious Connection,Behavior:EC2/NetworkPortUnusual,375
-Suspicious Connection," ""Behavior:EC2/TrafficVolumeUnusual"""," ""300"""
-Suspicious Connection," ""Discovery:S3/MaliciousIPCaller"""," ""648"""
-Suspicious Connection," ""Discovery:S3/MaliciousIPCaller.Custom"""," ""810"""
-Suspicious Connection," ""Discovery:S3/TorIPCaller"""," ""540"""
-Suspicious Connection,DefenseEvasion:EC2/UnusualDNSResolver," """""
-Suspicious Connection," ""Exfiltration:S3/MaliciousIPCaller"""," ""864"""
-Suspicious Connection," ""Impact:EC2/AbusedDomainRequest.Reputation"""," ""800"""
-Suspicious Connection," ""Impact:EC2/BitcoinDomainRequest.Reputation"""," ""450"""
-Suspicious Connection," ""Impact:EC2/MaliciousDomainRequest.Reputation"""," ""1200"""
-Suspicious Connection," ""Impact:EC2/SuspiciousDomainRequest.Reputation"""," ""160"""
-Suspicious Connection," ""Impact:EC2/WinRMBruteForce"""," ""320"""
-Suspicious Connection," ""Impact:S3/MaliciousIPCaller"""," ""864"""
-Suspicious Connection," ""Trojan:EC2/BlackholeTraffic"""," ""1000"""
-Suspicious Connection," ""Trojan:EC2/BlackholeTraffic!DNS"""," ""750"""
-Suspicious Connection," ""Trojan:EC2/DGADomainRequest.B"""," ""960"""
-Suspicious Connection," ""Trojan:EC2/DGADomainRequest.C!DNS"""," ""1200"""
-Suspicious Connection," ""Trojan:EC2/DriveBySourceTraffic!DNS"""," ""900"""
-Suspicious Connection," ""Trojan:EC2/DropPoint"""," ""1250"""
-Suspicious Connection," ""Trojan:EC2/DropPoint!DNS"""," ""1000"""
-Suspicious Connection," ""Trojan:EC2/PhishingDomainRequest!DNS"""," ""1200"""
-Suspicious Connection," ""UnauthorizedAccess:EC2/MaliciousIPCaller.Custom"""," ""1250"""
-Suspicious Connection," ""UnauthorizedAccess:EC2/MetadataDNSRebind"""," ""1200"""
-Suspicious Connection," ""UnauthorizedAccess:EC2/TorClient"""," ""1200"""
-Suspicious Connection," ""UnauthorizedAccess:EC2/TorRelay"""," ""960"""
-Suspicious Connection," ""UnauthorizedAccess:S3/MaliciousIPCaller.Custom"""," ""1080"""
-Suspicious Connection," ""UnauthorizedAccess:S3/TorIPCaller"""," ""864"""
-Suspicious User Actvity," ""CredentialAccess:IAMUser/AnomalousBehavior"""," ""800"""
-Suspicious User Actvity," ""DefenseEvasion:IAMUser/AnomalousBehavior"""," ""600"""
-Suspicious User Actvity," ""Discovery:IAMUser/AnomalousBehavior"""," ""240"""
-Suspicious User Actvity," ""Exfiltration:IAMUser/AnomalousBehavior"""," ""960"""
-Suspicious User Actvity," ""Impact:IAMUser/AnomalousBehavior"""," ""960"""
-Suspicious User Actvity," ""InitialAccess:IAMUser/AnomalousBehavior"""," ""800"""
-Suspicious User Actvity," ""PenTest:IAMUser/KaliLinux"""," ""750"""
-Suspicious User Actvity," ""PenTest:IAMUser/ParrotLinux"""," ""750"""
-Suspicious User Actvity," ""PenTest:IAMUser/PentooLinux"""," ""750"""
-Suspicious User Actvity," ""PenTest:S3/KaliLinux"""," ""675"""
-Suspicious User Actvity," ""PenTest:S3/ParrotLinux"""," ""675"""
-Suspicious User Actvity," ""PenTest:S3/PentooLinux"""," ""675"""
-Suspicious User Actvity," ""Persistence:IAMUser/AnomalousBehavior"""," ""600"""
-Suspicious User Actvity," ""PrivilegeEscalation:IAMUser/AnomalousBehavior"""," ""800"""
-Suspicious User Actvity," ""Recon:IAMUser/MaliciousIPCaller"""," ""600"""
-Suspicious User Actvity," ""Recon:IAMUser/MaliciousIPCaller.Custom"""," ""750"""
-Suspicious User Actvity," ""Recon:IAMUser/TorIPCaller"""," ""600"""
-Suspicious User Actvity," ""UnauthorizedAccess:EC2/RDPBruteForce"""," ""240"""
-Suspicious User Actvity," ""UnauthorizedAccess:EC2/SSHBruteForce"""," ""240"""
-Suspicious User Actvity," ""UnauthorizedAccess:IAMUser/ConsoleLoginSuccess.B"""," ""800"""
-Suspicious User Actvity," ""UnauthorizedAccess:IAMUser/MaliciousIPCaller"""," ""600"""
-Suspicious User Actvity," ""UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom"""," ""750"""
-Suspicious User Actvity," ""UnauthorizedAccess:IAMUser/TorIPCaller"""," ""600"""
-Unauthorised Scan," ""Impact:EC2/PortSweep"""," ""960"""
-Unauthorised Scan," ""Recon:EC2/PortProbeEMRUnprotectedPort"""," ""1200"""
-Unauthorised Scan," ""Recon:EC2/PortProbeUnprotectedPort"""," ""120"""
-Unauthorised Scan," ""Recon:EC2/Portscan"""," ""800"""
-Suspicious Connection," ""Discovery:Kubernetes/SuccessfulAnonymousAccess"""," """""
+Suspicious Connection, Behavior:EC2/TrafficVolumeUnusual, 300
+Suspicious Connection, Discovery:S3/MaliciousIPCaller, 648
+Suspicious Connection, Discovery:S3/MaliciousIPCaller.Custom, 810
+Suspicious Connection, Discovery:S3/TorIPCaller, 540
+Suspicious Connection,DefenseEvasion:EC2/UnusualDNSResolver, 
+Suspicious Connection, Exfiltration:S3/MaliciousIPCaller, 864
+Suspicious Connection, Impact:EC2/AbusedDomainRequest.Reputation, 800
+Suspicious Connection, Impact:EC2/BitcoinDomainRequest.Reputation, 450
+Suspicious Connection, Impact:EC2/MaliciousDomainRequest.Reputation, 1200
+Suspicious Connection, Impact:EC2/SuspiciousDomainRequest.Reputation, 160
+Suspicious Connection, Impact:EC2/WinRMBruteForce, 320
+Suspicious Connection, Impact:S3/MaliciousIPCaller, 864
+Suspicious Connection, Trojan:EC2/BlackholeTraffic, 1000
+Suspicious Connection, Trojan:EC2/BlackholeTraffic!DNS, 750
+Suspicious Connection, Trojan:EC2/DGADomainRequest.B, 960
+Suspicious Connection, Trojan:EC2/DGADomainRequest.C!DNS, 1200
+Suspicious Connection, Trojan:EC2/DriveBySourceTraffic!DNS, 900
+Suspicious Connection, Trojan:EC2/DropPoint, 1250
+Suspicious Connection, Trojan:EC2/DropPoint!DNS, 1000
+Suspicious Connection, Trojan:EC2/PhishingDomainRequest!DNS, 1200
+Suspicious Connection, UnauthorizedAccess:EC2/MaliciousIPCaller.Custom, 1250
+Suspicious Connection, UnauthorizedAccess:EC2/MetadataDNSRebind, 1200
+Suspicious Connection, UnauthorizedAccess:EC2/TorClient, 1200
+Suspicious Connection, UnauthorizedAccess:EC2/TorRelay, 960
+Suspicious Connection, UnauthorizedAccess:S3/MaliciousIPCaller.Custom, 1080
+Suspicious Connection, UnauthorizedAccess:S3/TorIPCaller, 864
+Suspicious User Actvity, CredentialAccess:IAMUser/AnomalousBehavior, 800
+Suspicious User Actvity, DefenseEvasion:IAMUser/AnomalousBehavior, 600
+Suspicious User Actvity, Discovery:IAMUser/AnomalousBehavior, 240
+Suspicious User Actvity, Exfiltration:IAMUser/AnomalousBehavior, 960
+Suspicious User Actvity, Impact:IAMUser/AnomalousBehavior, 960
+Suspicious User Actvity, InitialAccess:IAMUser/AnomalousBehavior, 800
+Suspicious User Actvity, PenTest:IAMUser/KaliLinux, 750
+Suspicious User Actvity, PenTest:IAMUser/ParrotLinux, 750
+Suspicious User Actvity, PenTest:IAMUser/PentooLinux, 750
+Suspicious User Actvity, PenTest:S3/KaliLinux, 675
+Suspicious User Actvity, PenTest:S3/ParrotLinux, 675
+Suspicious User Actvity, PenTest:S3/PentooLinux, 675
+Suspicious User Actvity, Persistence:IAMUser/AnomalousBehavior, 600
+Suspicious User Actvity, PrivilegeEscalation:IAMUser/AnomalousBehavior, 800
+Suspicious User Actvity, Recon:IAMUser/MaliciousIPCaller, 600
+Suspicious User Actvity, Recon:IAMUser/MaliciousIPCaller.Custom, 750
+Suspicious User Actvity, Recon:IAMUser/TorIPCaller, 600
+Suspicious User Actvity, UnauthorizedAccess:EC2/RDPBruteForce, 240
+Suspicious User Actvity, UnauthorizedAccess:EC2/SSHBruteForce, 240
+Suspicious User Actvity, UnauthorizedAccess:IAMUser/ConsoleLoginSuccess.B, 800
+Suspicious User Actvity, UnauthorizedAccess:IAMUser/MaliciousIPCaller, 600
+Suspicious User Actvity, UnauthorizedAccess:IAMUser/MaliciousIPCaller.Custom, 750
+Suspicious User Actvity, UnauthorizedAccess:IAMUser/TorIPCaller, 600
+Unauthorised Scan, Impact:EC2/PortSweep, 960
+Unauthorised Scan, Recon:EC2/PortProbeEMRUnprotectedPort, 1200
+Unauthorised Scan, Recon:EC2/PortProbeUnprotectedPort, 120
+Unauthorised Scan, Recon:EC2/Portscan, 800
+Suspicious Connection, Discovery:Kubernetes/SuccessfulAnonymousAccess, 
