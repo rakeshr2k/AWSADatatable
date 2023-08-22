@@ -1,50 +1,50 @@
-﻿AccountId, Site, AccountName
-069694694577, Sitecore, dyson-digital-production (069694694577)
-133596212097, Sitecore, dyson-digital-staging (133596212097)
-144935715961, Sitecore, dyson-digital-uat (144935715961)
-622156871794, Sitecore, dyson-digital-tools (622156871794)
-626572600509, Sitecore, dyson-digital-loadtest (626572600509)
-673767790006, Sitecore, dyson-digital-sit (673767790006)
-682587827956, Sitecore, dyson-digital-pre-production (682587827956)
-731630917110, Sitecore, dyson-digital-development (731630917110)
-189539755066, DXP, DXP
-305366777960, DXP, DXP
-394333930054, DXP, DXP
-453130194223, DXP, DXP
-499604764704, DXP, DXP
-670689373697, DXP, DXP
-693793123069, DXP, DXP
-755264997877, DXP, DXP
-001875009233, Enterprise, dyson-digital-cn-pro
-001877012342, Enterprise, QA-DIGITAL-CN
-001928214586, Enterprise, Dev-DIGITAL-CN
-019910839301, Enterprise, Core Shared Services Production
-229409614331, Enterprise, digital-dev-CN
-233862846086, Enterprise, digital-sit-CN
-233911041835, Enterprise, digital-uat-CN
-233954853490, Enterprise, digital-stg-CN
-233977497513, Enterprise, digital-ppe-CN
-234045474957, Enterprise, digital-prd-CN
-247789210242, Enterprise, core-transit (247789210242)
-303200471902, SAP4, enterprise-prod-dyson (303200471902)
-318630237684, Enterprise, dyson-master-billing (318630237684)
-354401129355, Enterprise, digital-tools-CN
-499312958330, SAP4, enterprise-infra-sandbox-two (499312958330)
-506061723633, Enterprise, Core Shared Services Non-Production
-586841442786, SAP4, enterprise-sappoc (586841442786)
-636616189507, Enterprise, dyson-enterprise-qa (636616189507)
-642502674381, Enterprise, core-security-dyson (642502674381)
-672534100627, SAP4, enterprise-preprod (672534100627)
-735101134622, Enterprise, dyson-enterprise-mgmt (735101134622)
-770743197707, Enterprise, connected-shared-mgmtcn(Master Billing)
-820296384374, SAP4, enterprise-logging (820296384374)
-857072414063, SAP4, enterprise-nonprod (857072414063)
-989459244691, SAP4, enterprise-qatest-tools (989459244691)
-058025727945, Legal Matter, legal-prd
-486665927078, Legal Matter, legal-dev
-246644197744, Cloud Transformation Project, dyson-core-transit-npr
-331546369818, Cloud Transformation Project, dyson-core-transit-prd
-415343372971, Cloud Transformation Project, dyson-core-security
-553405621424, Cloud Transformation Project, dyson-corporate-npr
-533515680173, Cloud Transformation Project, dyson-corporate-preprd
-031060809345, Cloud Transformation Project, dyson-corporate-prd
+﻿AccountId,Site,AccountName
+069694694577,Sitecore,dyson-digital-production(069694694577)
+133596212097,Sitecore,dyson-digital-staging(133596212097)
+144935715961,Sitecore,dyson-digital-uat(144935715961)
+622156871794,Sitecore,dyson-digital-tools(622156871794)
+626572600509,Sitecore,dyson-digital-loadtest(626572600509)
+673767790006,Sitecore,dyson-digital-sit(673767790006)
+682587827956,Sitecore,dyson-digital-pre-production(682587827956)
+731630917110,Sitecore,dyson-digital-development(731630917110)
+189539755066,DXP,DXP
+305366777960,DXP,DXP
+394333930054,DXP,DXP
+453130194223,DXP,DXP
+499604764704,DXP,DXP
+670689373697,DXP,DXP
+693793123069,DXP,DXP
+755264997877,DXP,DXP
+001875009233,Enterprise,dyson-digital-cn-pro
+001877012342,Enterprise,QA-DIGITAL-CN
+001928214586,Enterprise,Dev-DIGITAL-CN
+019910839301,Enterprise,CoreSharedServicesProduction
+229409614331,Enterprise,digital-dev-CN
+233862846086,Enterprise,digital-sit-CN
+233911041835,Enterprise,digital-uat-CN
+233954853490,Enterprise,digital-stg-CN
+233977497513,Enterprise,digital-ppe-CN
+234045474957,Enterprise,digital-prd-CN
+247789210242,Enterprise,core-transit(247789210242)
+303200471902,SAP4,enterprise-prod-dyson(303200471902)
+318630237684,Enterprise,dyson-master-billing(318630237684)
+354401129355,Enterprise,digital-tools-CN
+499312958330,SAP4,enterprise-infra-sandbox-two(499312958330)
+506061723633,Enterprise,CoreSharedServicesNon-Production
+586841442786,SAP4,enterprise-sappoc(586841442786)
+636616189507,Enterprise,dyson-enterprise-qa(636616189507)
+642502674381,Enterprise,core-security-dyson(642502674381)
+672534100627,SAP4,enterprise-preprod(672534100627)
+735101134622,Enterprise,dyson-enterprise-mgmt(735101134622)
+770743197707,Enterprise,connected-shared-mgmtcn(MasterBilling)
+820296384374,SAP4,enterprise-logging(820296384374)
+857072414063,SAP4,enterprise-nonprod(857072414063)
+989459244691,SAP4,enterprise-qatest-tools(989459244691)
+058025727945,LegalMatter,legal-prd
+486665927078,LegalMatter,legal-dev
+246644197744,CloudTransformationProject,dyson-core-transit-npr
+331546369818,CloudTransformationProject,dyson-core-transit-prd
+415343372971,CloudTransformationProject,dyson-core-security
+553405621424,CloudTransformationProject,dyson-corporate-npr
+533515680173,CloudTransformationProject,dyson-corporate-preprd
+031060809345,CloudTransformationProject,dyson-corporate-prd
