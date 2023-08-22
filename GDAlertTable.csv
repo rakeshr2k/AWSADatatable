@@ -76,3 +76,6 @@ UnauthorisedScan,Recon:EC2/PortProbeEMRUnprotectedPort,1200
 UnauthorisedScan,Recon:EC2/PortProbeUnprotectedPort,120
 UnauthorisedScan,Recon:EC2/Portscan,800
 SuspiciousConnection,Discovery:Kubernetes/SuccessfulAnonymousAccess,
+SuspiciousUserActvity,Discovery:AnomalousBehavior,
+SuspiciousUserActvity,Exfiltration:AnomalousBehavior,
+
