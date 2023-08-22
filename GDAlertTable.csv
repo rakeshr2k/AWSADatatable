@@ -21,7 +21,7 @@ Privilege Admin Activity," ""Policy:S3/BucketPublicAccessGranted"""," ""960"""
 Privilege Admin Activity," ""Stealth:IAMUser/CloudTrailLoggingDisabled"""," ""400"""
 Privilege Admin Activity," ""Stealth:IAMUser/PasswordPolicyChange"""," ""300"""
 Privilege Admin Activity," ""Stealth:S3/ServerAccessLoggingDisabled"""," ""300"""
-Suspicious Connection," ""Behavior:EC2/NetworkPortUnusual"""," ""375"""
+Suspicious Connection,Behavior:EC2/NetworkPortUnusual,375
 Suspicious Connection," ""Behavior:EC2/TrafficVolumeUnusual"""," ""300"""
 Suspicious Connection," ""Discovery:S3/MaliciousIPCaller"""," ""648"""
 Suspicious Connection," ""Discovery:S3/MaliciousIPCaller.Custom"""," ""810"""
